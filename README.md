@@ -12,4 +12,9 @@ Configured and deployed Sysmon for detailed Windows telemetry, capturing logs fo
  Tools: Sysmon, Event Viewer  
  Focus: Endpoint Monitoring, Log Collection
 
+
+ ### [Windows Event Log Monitoring](./Windows-Event-Log-Monitoring)
+Focused on detecting security-relevant Event IDs such as 4624 (logon), 4672/4673 (privilege use), and 4697 (service install) using native Windows Event Viewer. Includes log screenshots and detection summaries.
+
+
 ---
