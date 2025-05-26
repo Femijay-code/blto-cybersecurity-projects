@@ -16,5 +16,11 @@ Configured and deployed Sysmon for detailed Windows telemetry, capturing logs fo
  ### [Windows Event Log Monitoring](./windows-event-log-monitoring)
 Focused on detecting security-relevant Event IDs such as 4624 (logon), 4672/4673 (privilege use), and 4697 (service install) using native Windows Event Viewer. Includes log screenshots and detection summaries.
 
+### [Event ID 13 - Registry Value Set](./event-id-13-registry-value-set)
+Simulated and analyzed Event ID 13 to detect registry value changes, often linked to persistence techniques. Captured Sysmon logs and validated entries via Event Viewer.
+
+Tools: Sysmon, Event Viewer
+Focus: Registry Monitoring, Persistence Detection
+
 
 ---
