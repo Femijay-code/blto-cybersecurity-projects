@@ -28,12 +28,3 @@ This project documents how Sysmon logs process termination using Event ID 5. Tra
 | Notepad termination | ![eventid5-notepad](./eventid5-notepad.png) |
 | Calculator termination | ![eventid5-calc](./eventid5-calc.png) |
 
----
-
-## Blue Team Relevance
-
-Monitoring Event ID 5 is crucial to:
-- Trace attack sequences end-to-end
-- Detect unusual cleanup or rapid exit of programs
-- Investigate terminated malware payloads or PowerShell dropper sessions
-
