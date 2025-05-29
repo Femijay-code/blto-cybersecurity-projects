@@ -8,10 +8,10 @@ This repository contains hands-on projects focused on **Windows event log analys
 
 | Project Title                               | Description                                                                                                      | Link                                                |
 | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| **Registry Value Set - Event ID 13**        | Monitors changes made to registry values, useful for tracking persistence and configuration tampering.           | [🔗 View Project](./event-id-13-registry-value-set) |
-| **Sysmon Process Termination - Event ID 5** | Tracks process termination using Sysmon to help identify abnormal exits or malware behavior.                     | [🔗 View Project](./process-termination-sysmon)     |
-| **Sysmon Configuration and Log Collection** | Demonstrates the setup of Sysmon with a custom config and how to collect logs for analysis.                      | [🔗 View Project](./sysmon-log-collection)          |
-| **Windows Event Log Monitoring**            | Focuses on monitoring key security events like privileged logons (Event IDs 4624, 4672, etc.) and account usage. | [🔗 View Project](./windows-event-log-monitoring)   |
+| **Registry Value Set - Event ID 13**        | Monitors changes made to registry values, useful for tracking persistence and configuration tampering.           | [🔗 View Project](./event-id-13-registry-value-set/README.md) |
+| **Sysmon Process Termination - Event ID 5** | Tracks process termination using Sysmon to help identify abnormal exits or malware behavior.                     | [🔗 View Project](./process-termination-sysmon/README.md)     |
+| **Sysmon Configuration and Log Collection** | Demonstrates the setup of Sysmon with a custom config and how to collect logs for analysis.                      | [🔗 View Project](./sysmon-log-collection/README.md)          |
+| **Windows Event Log Monitoring**            | Focuses on monitoring key security events like privileged logons (Event IDs 4624, 4672, etc.) and account usage. | [🔗 View Project](./windows-event-log-monitoring/README.md)   |
 
 ---
 
