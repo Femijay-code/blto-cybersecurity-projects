@@ -1,34 +1,26 @@
-# 🛡️ Blue Team Cybersecurity Projects
+### 📂 Windows Log Analysis Projects
 
-This repository features hands-on projects in network monitoring and intrusion detection, with a focus on endpoint visibility, system logging, and event correlation. Each folder documents a specific implementation with supporting artifacts.
+This repository contains hands-on projects focused on **Windows event log analysis**, showcasing key skills in detecting and understanding security-relevant activities on Windows systems. Each folder represents a focused project that includes data, screenshots, and analysis using native Windows Event Viewer and Sysmon logs.
 
 ---
 
-##  Projects
+### 📁 Projects Included
 
-### [Sysmon Log Collection on Windows](./sysmon-log-collection-windows)
-Configured and deployed Sysmon for detailed Windows telemetry, capturing logs for process creation, driver loading, and network activity. Filtered and validated logs via Event Viewer for security-relevant event IDs.
+| Project Title                               | Description                                                                                                      | Link                                                |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| **Registry Value Set - Event ID 13**        | Monitors changes made to registry values, useful for tracking persistence and configuration tampering.           | [🔗 View Project](./event-id-13-registry-value-set) |
+| **Sysmon Process Termination - Event ID 5** | Tracks process termination using Sysmon to help identify abnormal exits or malware behavior.                     | [🔗 View Project](./process-termination-sysmon)     |
+| **Sysmon Configuration and Log Collection** | Demonstrates the setup of Sysmon with a custom config and how to collect logs for analysis.                      | [🔗 View Project](./sysmon-log-collection)          |
+| **Windows Event Log Monitoring**            | Focuses on monitoring key security events like privileged logons (Event IDs 4624, 4672, etc.) and account usage. | [🔗 View Project](./windows-event-log-monitoring)   |
 
- Tools: Sysmon, Event Viewer  
- Focus: Endpoint Monitoring, Log Collection
+---
 
+### 🧠 Skills Demonstrated
 
- ### [Windows Event Log Monitoring](./windows-event-log-monitoring)
-Focused on detecting security-relevant Event IDs such as 4624 (logon), 4672/4673 (privilege use), and 4697 (service install) using native Windows Event Viewer. Includes log screenshots and detection summaries.
-
-
-### [Event ID 13 - Registry Value Set](./Event-ID-13-Registry-Value-Set)  
-Simulated and analyzed Event ID 13 to detect registry value changes, often linked to persistence techniques. Captured Sysmon logs and validated entries via Event Viewer.
-
-**Tools:** Sysmon, Event Viewer  
-**Focus:** Registry Monitoring, Persistence Detection
-
-### [Process Termination - Sysmon Event ID 5](./process-termination-sysmon)
-Logged and analyzed terminated processes using Sysmon’s Event ID 5. Useful for detecting attacker cleanup, terminated scripts, or suspicious parent-child process chains.
-
-Tools: Sysmon, Event Viewer  
-Focus: Process Monitoring, Endpoint Visibility
-
-
+* Windows Event ID analysis (4624, 4672, 7045, etc.)
+* Sysmon configuration and deployment
+* Real-world event correlation and detection
+* Log source handling and documentation
+* Blue Team investigation mindset
 
 ---
